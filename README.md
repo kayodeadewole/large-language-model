@@ -6,6 +6,7 @@ There are three main types of LLM:
   <li>Instruction Tuned LLM: Trained to predict a response to the instruction prompt given as input. E.g List the best food for breakfast. Limit answers to 5. Here, we instruct the LLM to execute our prompt and produce the answers. An example of LLM in PaLM that provides this operation is <strong>text-bison-001</strong>. We will implement this model in this demo.</li>
   <li>Dialog Tuned LLM: Trained to have a dialogue by predicting the next response. It is a special case of instruction tuned. A typical example is ChatBot (like ChatGPT). An example of LLM in PaLM that provides this operation is <strong>chat-bison-001</strong>. We will implement this model in this demo.</li>
 </ol>
-````
-pip install 
-````
+
+```
+pip install
+```
