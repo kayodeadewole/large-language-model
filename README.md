@@ -7,7 +7,7 @@ There are three main types of LLM:
   <li>Dialog Tuned LLM: Trained to have a dialogue by predicting the next response. It is a special case of instruction tuned. A typical example is ChatBot (like ChatGPT). An example of LLM in PaLM that provides this operation is <strong>chat-bison-001</strong>. We will implement this model in this demo.</li>
 </ol>
 
-We will first demonstrate the usage of LangChain with OpenAI and PineCone. Visit the two websites to create your API keys (https://platform.openai.com/ and https://app.pinecone.io/). We will need them. Now, open the file **openai-demo.ipynb** to see how to use LangChain to communicate with OpenAI. For more information on Generative API use cases, visit https://aws.amazon.com/generative-ai/use-cases/.
+We will first demonstrate the usage of LangChain with OpenAI and PineCone. Visit the two websites to create your API keys (https://platform.openai.com/ and https://app.pinecone.io/). We will need them. Now, open the file **openai-demo.ipynb** to see how to use LangChain to communicate with OpenAI. For more information on Generative AI use cases, visit https://aws.amazon.com/generative-ai/use-cases/.
 
 ```
 pip install -r requirements.txt
